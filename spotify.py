@@ -91,14 +91,14 @@ class Playlist:
 def main():
     playlist = Playlist()
     while True:
-        print('Escolha uma opçãao:\n')
+        print('---- Escolha uma opçãao----- \n')
         print('1 - Adicionar música')
         print('2 - Remover música')
         print('3 - Mover música para outra posição')
         print('4 - Listar playlist atual')
         print('5 - Sair')
 
-        opcao = input('Escolha uma opção')
+        opcao = input('Escolha uma opção: ')
 
         if opcao == '1':
             print('---- Adicionar música na playlist ----\n')
